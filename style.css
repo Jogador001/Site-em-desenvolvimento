@@ -1,0 +1,72 @@
+.Inicio {
+    background-color: rgb(0, 167, 0);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+
+footer {
+    background-color: rgb(0, 167, 0);
+    border-top: 3px solid rgb(0, 71, 0);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.conteiner {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+}
+
+img {
+    height: 300px; /* Mantém a altura fixa */
+    width: 100%; /* Define a largura como 100% para ocupar a largura do contêiner */
+    object-fit: cover; /* Mantém a proporção e corta a imagem para cobrir a caixa */
+}
+
+/* Adicione um estilo comum para as imagens quadradas */
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6 {
+    height: 300px; /* Ajuste conforme necessário para manter a mesma altura */
+}
+
+
+
+#img-1 {
+    background-image: url(../img/tenis1.jpg);
+}
+
+#img-2 {
+    background-image: url(../img/tenis2.jpg);
+}
+
+#img-3 {
+    background-image: url(../img/tenis3.jpg);
+}
+
+#img-4 {
+    background-image: url(../img/tenis4.jpg);
+}
+
+#img-5 {
+    background-image: url(../img/tenis5.jpg);
+}
+
+#img-6 {
+    background-image: url(../img/tenis6.jpg);
+}
+
+
